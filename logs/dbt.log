@@ -1,0 +1,338 @@
+[0m10:56:41.026813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F71C5C5940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F71A118B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F71EF639D0>]}
+
+
+============================== 10:56:41.034304 | 271a1205-28aa-4d06-8580-1dd9495db373 ==============================
+[0m10:56:41.034304 [info ] [MainThread]: Running with dbt=1.12.6
+[0m10:56:41.034904 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init atliq_gold', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m10:56:41.088507 [debug] [MainThread]: Starter project path: C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\.venv\Lib\site-packages\dbt\include\starter_project
+[0m10:56:41.125872 [info ] [MainThread]: Setting up your profile.
+[0m10:57:03.768787 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m10:57:03.769364 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m10:57:03.769715 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m10:59:18.064200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016949D25940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016947888B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001694C6C39D0>]}
+
+
+============================== 10:59:18.073223 | c8cd3db7-107b-40bb-bc7b-af352dc56d09 ==============================
+[0m10:59:18.073223 [info ] [MainThread]: Running with dbt=1.12.6
+[0m10:59:18.074007 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init atliq_gold', 'log_path': 'logs'}
+[0m10:59:18.126871 [info ] [MainThread]: A project called atliq_gold already exists here.
+[0m10:59:18.128099 [debug] [MainThread]: Command `dbt init` succeeded at 10:59:18.127940 after 0.31 seconds
+[0m10:59:18.128517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001694C4E6B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001694C715250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001694C6F99D0>]}
+[0m10:59:18.128942 [debug] [MainThread]: Flushing usage events
+[0m10:59:19.388558 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:59:36.293398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F63675940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F611C8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F660139D0>]}
+
+
+============================== 10:59:36.299192 | a70437bd-729c-4970-a22a-b5027bf87555 ==============================
+[0m10:59:36.299192 [info ] [MainThread]: Running with dbt=1.12.6
+[0m10:59:36.299891 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init atliq_gold', 'log_path': 'logs'}
+[0m10:59:36.337924 [info ] [MainThread]: A project called atliq_gold already exists here.
+[0m10:59:36.339135 [debug] [MainThread]: Command `dbt init` succeeded at 10:59:36.338965 after 0.26 seconds
+[0m10:59:36.339553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F65E3AB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F66065250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026F660499D0>]}
+[0m10:59:36.339971 [debug] [MainThread]: Flushing usage events
+[0m10:59:37.405020 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:59:59.714407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002132C4A5940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021329FF8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002132EE439D0>]}
+
+
+============================== 10:59:59.719427 | 30073a76-65d3-4435-b1c5-2ef528d81e4d ==============================
+[0m10:59:59.719427 [info ] [MainThread]: Running with dbt=1.12.6
+[0m10:59:59.720145 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init atliq_gold', 'log_path': 'logs'}
+[0m10:59:59.752952 [debug] [MainThread]: Starter project path: C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\.venv\Lib\site-packages\dbt\include\starter_project
+[0m10:59:59.772514 [info ] [MainThread]: Setting up your profile.
+[0m11:00:07.378938 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:00:07.379981 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:00:07.380752 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:03:46.007912 [info ] [MainThread]: Profile atliq_gold written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m11:03:46.015290 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m11:03:46.016209 [info ] [MainThread]: dbt version: 1.12.6
+[0m11:03:46.016758 [info ] [MainThread]: python version: 3.14.6
+[0m11:03:46.017472 [info ] [MainThread]: python path: C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\.venv\Scripts\python.exe
+[0m11:03:46.019290 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:03:46.163429 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m11:03:46.164993 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m11:03:46.166346 [info ] [MainThread]: Using dbt_project.yml file at C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\atliq_gold\dbt_project.yml
+[0m11:03:46.167698 [info ] [MainThread]: adapter type: databricks
+[0m11:03:46.168960 [info ] [MainThread]: adapter version: 1.13.0
+[0m11:03:46.308849 [info ] [MainThread]: Configuration:
+[0m11:03:46.309601 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:03:46.310059 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m11:03:46.310536 [info ] [MainThread]: Required dependencies:
+[0m11:03:46.311056 [debug] [MainThread]: Executing "git --help"
+[0m11:03:46.383537 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:03:46.384231 [debug] [MainThread]: STDERR: "b''"
+[0m11:03:46.384671 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:03:46.385343 [info ] [MainThread]: Connection:
+[0m11:03:46.385997 [info ] [MainThread]:   host: adb-7405614634406763.3.azuredatabricks.net
+[0m11:03:46.386510 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/7f5d9d661695637f
+[0m11:03:46.386964 [info ] [MainThread]:   catalog: atliq
+[0m11:03:46.387374 [info ] [MainThread]:   schema: gold
+[0m11:03:46.388086 [info ] [MainThread]: Registered adapter: databricks=1.13.0
+[0m11:03:47.194494 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m11:03:47.194971 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m11:03:47.436888 [info ] [MainThread]: Databricks adapter:   SPOG host (host_type='workspace'): no
+[0m11:03:47.438749 [info ] [MainThread]: Databricks adapter:   workspace_id (from ?o= in http_path): None
+[0m11:03:47.440754 [info ] [MainThread]: Databricks adapter:   databricks-sql-connector version: 4.4.0 (supported)
+[0m11:03:47.442525 [info ] [MainThread]: Databricks adapter:   databricks-sdk version: 0.117.0 (supported)
+[0m11:03:47.444303 [debug] [MainThread]: Using databricks connection "debug"
+[0m11:03:47.445676 [debug] [MainThread]: On debug: select 1 as id
+[0m11:03:47.446662 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:03:48.084414 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1db35-f858-1015-95b7-5d552d8f6db0) - Created
+[0m11:03:54.087973 [debug] [MainThread]: SQL status: OK in 6.640 seconds
+[0m11:03:54.092806 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f1db35-f858-1015-95b7-5d552d8f6db0, command-id=01f1db35-f884-12b6-8639-698d7721f93b) - Closing
+[0m11:03:54.260472 [debug] [MainThread]: On debug: Close
+[0m11:03:54.262620 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1db35-f858-1015-95b7-5d552d8f6db0) - Closing
+[0m11:03:54.352075 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:03:54.353154 [info ] [MainThread]: [32mAll checks passed![0m
+[0m11:03:54.354052 [info ] [MainThread]: Your new dbt project "atliq_gold" was created!
+Initialized new project in C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\atliq_gold\atliq_gold
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:03:54.356542 [debug] [MainThread]: Command `dbt init` succeeded at 11:03:54.356282 after 234.85 seconds
+[0m11:03:54.357333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002132EC6AB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021343A37770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000213439DCD10>]}
+[0m11:03:54.357987 [debug] [MainThread]: Flushing usage events
+[0m11:03:55.516893 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:07:56.346541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9143C5940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E911F2CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E916D639D0>]}
+
+
+============================== 11:07:56.354466 | 38ac69bb-6d92-408f-8444-023c63ccc4c2 ==============================
+[0m11:07:56.354466 [info ] [MainThread]: Running with dbt=1.12.6
+[0m11:07:56.355223 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m11:07:56.407956 [info ] [MainThread]: dbt version: 1.12.6
+[0m11:07:56.408542 [info ] [MainThread]: python version: 3.14.6
+[0m11:07:56.409054 [info ] [MainThread]: python path: C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\.venv\Scripts\python.exe
+[0m11:07:56.409535 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:07:57.792975 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:07:57.793587 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:07:57.794043 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:07:59.285764 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m11:07:59.286503 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m11:07:59.287147 [info ] [MainThread]: Using dbt_project.yml file at C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+[0m11:07:59.287757 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m11:07:59.289077 [debug] [MainThread]: Command `dbt debug` failed at 11:07:59.288970 after 3.16 seconds
+[0m11:07:59.289426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E92B7A5940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E92B743AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E92B837680>]}
+[0m11:07:59.289793 [debug] [MainThread]: Flushing usage events
+[0m11:08:00.598660 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:09:06.526543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E82379940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023EFFE78B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E84D139D0>]}
+
+
+============================== 11:09:06.531737 | af824ca0-93fe-4762-83ef-5d5e2f19bb8a ==============================
+[0m11:09:06.531737 [info ] [MainThread]: Running with dbt=1.12.6
+[0m11:09:06.532479 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt debug', 'log_path': 'logs'}
+[0m11:09:06.605859 [info ] [MainThread]: dbt version: 1.12.6
+[0m11:09:06.615520 [info ] [MainThread]: python version: 3.14.6
+[0m11:09:06.616341 [info ] [MainThread]: python path: C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\.venv\Scripts\python.exe
+[0m11:09:06.617508 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:09:07.852168 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:09:07.852627 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:09:07.852971 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:09:08.988604 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m11:09:08.989244 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m11:09:08.989788 [info ] [MainThread]: Using dbt_project.yml file at C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+[0m11:09:08.990352 [info ] [MainThread]: adapter type: databricks
+[0m11:09:08.990801 [info ] [MainThread]: adapter version: 1.13.0
+[0m11:09:08.991334 [info ] [MainThread]: Configuration:
+[0m11:09:08.991811 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:09:08.992212 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:09:08.992589 [info ] [MainThread]: Required dependencies:
+[0m11:09:08.992948 [debug] [MainThread]: Executing "git --help"
+[0m11:09:09.042751 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:09:09.043291 [debug] [MainThread]: STDERR: "b''"
+[0m11:09:09.043668 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:09:09.044065 [info ] [MainThread]: Connection:
+[0m11:09:09.044451 [info ] [MainThread]:   host: adb-7405614634406763.3.azuredatabricks.net
+[0m11:09:09.044786 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/7f5d9d661695637f
+[0m11:09:09.045183 [info ] [MainThread]:   catalog: atliq
+[0m11:09:09.045556 [info ] [MainThread]:   schema: gold
+[0m11:09:09.046108 [info ] [MainThread]: Registered adapter: databricks=1.13.0
+[0m11:09:09.514931 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m11:09:09.515321 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m11:09:09.654380 [info ] [MainThread]: Databricks adapter:   SPOG host (host_type='workspace'): no
+[0m11:09:09.655029 [info ] [MainThread]: Databricks adapter:   workspace_id (from ?o= in http_path): None
+[0m11:09:09.655532 [info ] [MainThread]: Databricks adapter:   databricks-sql-connector version: 4.4.0 (supported)
+[0m11:09:09.656020 [info ] [MainThread]: Databricks adapter:   databricks-sdk version: 0.117.0 (supported)
+[0m11:09:09.656500 [debug] [MainThread]: Using databricks connection "debug"
+[0m11:09:09.656822 [debug] [MainThread]: On debug: select 1 as id
+[0m11:09:09.657119 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:09:10.158497 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1db36-b859-13d9-b487-bea19d863ccc) - Created
+[0m11:09:10.474209 [debug] [MainThread]: SQL status: OK in 0.820 seconds
+[0m11:09:10.477711 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f1db36-b859-13d9-b487-bea19d863ccc, command-id=01f1db36-b87b-1b9e-b6fa-e4d2865ec3a6) - Closing
+[0m11:09:10.478624 [debug] [MainThread]: On debug: Close
+[0m11:09:10.479266 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1db36-b859-13d9-b487-bea19d863ccc) - Closing
+[0m11:09:10.564529 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:09:10.565884 [info ] [MainThread]: [31m1 check failed:[0m
+[0m11:09:10.567094 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml> not found
+
+[0m11:09:10.569593 [debug] [MainThread]: Command `dbt debug` failed at 11:09:10.569361 after 4.27 seconds
+[0m11:09:10.570357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E997629E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E99990A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E997F7570>]}
+[0m11:09:10.571081 [debug] [MainThread]: Flushing usage events
+[0m11:09:11.771896 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:03:40.227375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB8F1A5940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB8CD08B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB91B93890>]}
+
+
+============================== 15:03:40.237970 | 382aeef1-c9c9-4b6c-90fe-12af4a7c424f ==============================
+[0m15:03:40.237970 [info ] [MainThread]: Running with dbt=1.12.6
+[0m15:03:40.238669 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'invocation_command': 'dbt run --select stg_customers', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m15:03:40.239274 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:03:40.240252 [debug] [MainThread]: Command `dbt run` failed at 15:03:40.240139 after 0.22 seconds
+[0m15:03:40.240613 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB91B2C8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB91C14950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB91BBB020>]}
+[0m15:03:40.241007 [debug] [MainThread]: Flushing usage events
+[0m15:03:41.675545 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:05:04.347533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF4F015940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF4CB78B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF51A03890>]}
+
+
+============================== 15:05:04.352961 | 795bd0c7-63a7-4032-958e-d31c86620831 ==============================
+[0m15:05:04.352961 [info ] [MainThread]: Running with dbt=1.12.6
+[0m15:05:04.353596 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select stg_customers', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m15:05:04.354172 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:05:04.355092 [debug] [MainThread]: Command `dbt run` failed at 15:05:04.354979 after 0.17 seconds
+[0m15:05:04.355439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF519948A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF51A84950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF51A27020>]}
+[0m15:05:04.355819 [debug] [MainThread]: Flushing usage events
+[0m15:05:05.571959 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:06:12.682107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D56A725940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D568288B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D56D113890>]}
+
+
+============================== 15:06:12.687512 | a2802f19-bdc6-467d-9a6c-5addb806883c ==============================
+[0m15:06:12.687512 [info ] [MainThread]: Running with dbt=1.12.6
+[0m15:06:12.688194 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt run --select stg_customers', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m15:06:12.688751 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:06:12.689692 [debug] [MainThread]: Command `dbt run` failed at 15:06:12.689575 after 0.15 seconds
+[0m15:06:12.690069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D56D0A48A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D56D194950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D56D13B020>]}
+[0m15:06:12.690440 [debug] [MainThread]: Flushing usage events
+[0m15:06:14.048671 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:01:58.778013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245AA5F5940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245A8158B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245ACFE3890>]}
+
+
+============================== 20:01:58.786539 | d7259c70-02a2-4e1a-9f36-8d74afcc83b4 ==============================
+[0m20:01:58.786539 [info ] [MainThread]: Running with dbt=1.12.6
+[0m20:01:58.787865 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt build', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m20:01:58.788469 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:01:58.789580 [debug] [MainThread]: Command `dbt build` failed at 20:01:58.789411 after 0.25 seconds
+[0m20:01:58.790006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245ACF748A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245AD064950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245AD00B020>]}
+[0m20:01:58.790449 [debug] [MainThread]: Flushing usage events
+[0m20:01:59.705862 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:23:44.564573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D1DA005940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D1D7B68B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D1DC9A39D0>]}
+
+
+============================== 17:23:44.574837 | 33ad9387-ed6a-45cc-90fc-cfe5240a375f ==============================
+[0m17:23:44.574837 [info ] [MainThread]: Running with dbt=1.12.6
+[0m17:23:44.575533 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt debug --target ci', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m17:23:44.631194 [info ] [MainThread]: dbt version: 1.12.6
+[0m17:23:44.632249 [info ] [MainThread]: python version: 3.14.6
+[0m17:23:44.632815 [info ] [MainThread]: python path: C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\.venv\Scripts\python.exe
+[0m17:23:44.633235 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:23:44.634657 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m17:23:44.635035 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m17:23:44.635395 [info ] [MainThread]: Using dbt_project.yml file at C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+[0m17:23:44.635774 [info ] [MainThread]: Configuration:
+[0m17:23:44.636109 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m17:23:44.636456 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:23:44.636775 [info ] [MainThread]: Required dependencies:
+[0m17:23:44.637196 [debug] [MainThread]: Executing "git --help"
+[0m17:23:44.685298 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:23:44.685808 [debug] [MainThread]: STDERR: "b''"
+[0m17:23:44.686202 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:23:44.686664 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m17:23:44.687118 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:23:44.687523 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  The profile 'atliq_gold' does not have a target named 'ci'. The valid target names for this profile are:
+   - dev
+
+
+[0m17:23:44.687889 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml> not found
+
+[0m17:23:44.688750 [debug] [MainThread]: Command `dbt debug` failed at 17:23:44.688644 after 0.38 seconds
+[0m17:23:44.689099 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D1DC7CAEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D1DC9F5370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D1DC9D9AE0>]}
+[0m17:23:44.689477 [debug] [MainThread]: Flushing usage events
+[0m17:23:46.184399 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:25:36.775636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000225A5955940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000225A34B8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000225A82F39D0>]}
+
+
+============================== 17:25:36.780974 | 3ac0da32-530f-4ba0-9de0-46744e4b230f ==============================
+[0m17:25:36.780974 [info ] [MainThread]: Running with dbt=1.12.6
+[0m17:25:36.781695 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt debug --target ci', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m17:25:36.816792 [info ] [MainThread]: dbt version: 1.12.6
+[0m17:25:36.817286 [info ] [MainThread]: python version: 3.14.6
+[0m17:25:36.817735 [info ] [MainThread]: python path: C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\.venv\Scripts\python.exe
+[0m17:25:36.818159 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:25:36.819426 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m17:25:36.819875 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m17:25:36.820293 [info ] [MainThread]: Using dbt_project.yml file at C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+[0m17:25:36.820737 [info ] [MainThread]: Configuration:
+[0m17:25:36.821079 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m17:25:36.821445 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:25:36.821870 [info ] [MainThread]: Required dependencies:
+[0m17:25:36.822343 [debug] [MainThread]: Executing "git --help"
+[0m17:25:36.864975 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:25:36.865443 [debug] [MainThread]: STDERR: "b''"
+[0m17:25:36.865798 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:25:36.866241 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m17:25:36.866660 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:25:36.867089 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  The profile 'atliq_gold' does not have a target named 'ci'. The valid target names for this profile are:
+   - dev
+
+
+[0m17:25:36.867582 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml> not found
+
+[0m17:25:36.868665 [debug] [MainThread]: Command `dbt debug` failed at 17:25:36.868543 after 0.31 seconds
+[0m17:25:36.869030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000225A811EEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000225A8345370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000225A8329AE0>]}
+[0m17:25:36.869415 [debug] [MainThread]: Flushing usage events
+[0m17:25:37.925650 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:25:43.290185 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273A7065940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273A4BC8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273A9A53890>]}
+
+
+============================== 17:25:43.295530 | c8196350-3138-474e-a106-eea3b797276d ==============================
+[0m17:25:43.295530 [info ] [MainThread]: Running with dbt=1.12.6
+[0m17:25:43.296134 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'invocation_command': 'dbt build --target dev', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m17:25:43.296655 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\# Data Project\CB_Capstone_AtliQ_Commerce_PRO\Phase1_End_To_End_Batch_Engineering\Project_code\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:25:43.297592 [debug] [MainThread]: Command `dbt build` failed at 17:25:43.297479 after 0.16 seconds
+[0m17:25:43.297955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273A99E48A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273A9AD4950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000273A9A7B020>]}
+[0m17:25:43.298312 [debug] [MainThread]: Flushing usage events
+[0m17:25:44.449089 [debug] [MainThread]: An error was encountered while trying to flush usage events

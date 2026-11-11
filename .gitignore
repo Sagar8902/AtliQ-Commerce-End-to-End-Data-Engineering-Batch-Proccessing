@@ -1,0 +1,20 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# IDE
+.vscode/
+.DS_Store
