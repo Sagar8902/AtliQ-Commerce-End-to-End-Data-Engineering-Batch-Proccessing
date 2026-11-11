@@ -1,0 +1,17 @@
+# secrets: commit .env.example, never .env
+
+.env
+
+# dbt (.user.yml is written next to profiles.yml)
+
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Python and editors
+
+__pycache__/
+.venv/
+.vscode/
+.DS_Store

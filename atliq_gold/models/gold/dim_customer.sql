@@ -1,0 +1,22 @@
+
+SELECT
+    c.customer_id,
+    c.customer_name,
+    c.city,
+    c.signup_date,
+    DATE_TRUNC('MONTH', c.signup_date) AS signup_cohort,
+    f.first_order_date
+
+FROM {{ ref('stg_customers') }} c
+
+LEFT JOIN (
+    SELECT
+        customer_id,
+        CAST(MIN(order_date) AS DATE) AS first_order_date
+    FROM {{ ref('stg_orders') }}
+    WHERE status <> 'Cancelled'
+    GROUP BY customer_id
+) f
+    ON c.customer_id = f.customer_id
+
+
